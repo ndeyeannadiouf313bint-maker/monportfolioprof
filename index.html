@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ndeye Anna Diouf — Portfolio Développement Web</title>
+<meta name="description" content="Portfolio de Ndeye Anna Diouf, étudiante en Licence 2 Génie Informatique à l'Unipro. Sites vitrines et projets web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">NAD</span>
+      <span class="brand-text">
+        <strong>Ndeye Anna Diouf</strong>
+        <em>Développement Web</em>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="btn btn-primary nav-cta">Me contacter</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">Licence 2 Génie Informatique — Unipro</p>
+        <h1>Je conçois des sites vitrines clairs, rapides et sur mesure.</h1>
+        <p class="hero-lede">
+          Étudiante en développement, je construis des sites pour des cabinets et
+          des indépendants : structure propre, code lisible, et une identité
+          visuelle pensée pour chaque projet.
+        </p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-ghost">Me contacter</a>
+        </div>
+        <ul class="hero-stats">
+          <li><span class="stat-num">04</span><span class="stat-label">sites vitrines livrés</span></li>
+          <li><span class="stat-num">L2</span><span class="stat-label">Génie Informatique, Unipro</span></li>
+          <li><span class="stat-num">HTML/CSS/JS</span><span class="stat-label">stack principale</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" data-reveal aria-hidden="true">
+        <div class="code-card">
+          <div class="code-card-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <pre class="code-card-body"><span class="tok-key">const</span> <span class="tok-var">portfolio</span> = {
+  <span class="tok-prop">auteure</span>: <span class="tok-str">"Ndeye Anna Diouf"</span>,
+  <span class="tok-prop">formation</span>: <span class="tok-str">"L2 Génie Informatique"</span>,
+  <span class="tok-prop">ecole</span>: <span class="tok-str">"Unipro"</span>,
+  <span class="tok-prop">projets</span>: <span class="tok-num">4</span>,
+  <span class="tok-prop">disponible</span>: <span class="tok-kw">true</span>
+};</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section class="section" id="apropos">
+    <div class="container about-grid">
+      <div class="about-portrait" data-reveal aria-hidden="true">
+        <span>NAD</span>
+      </div>
+
+      <div class="about-copy" data-reveal>
+        <p class="eyebrow">À propos</p>
+        <h2>Étudiante en informatique, curieuse du web et du terrain</h2>
+        <p>
+          Je m'appelle <strong>Ndeye Anna Diouf</strong>, étudiante en Licence 2 Génie
+          Informatique à l'Unipro. En parallèle de mes cours, je conçois des sites
+          vitrines pour des cabinets et professionnels autour de moi — l'occasion de
+          transformer chaque brief réel en projet complet, du contenu à la mise en ligne.
+        </p>
+        <p>
+          Mon approche : comprendre l'activité du client avant de designer, choisir
+          une palette et une typographie qui lui ressemblent, puis livrer un code
+          propre, responsive et facile à faire évoluer.
+        </p>
+        <a href="#projets" class="text-link">Découvrir mes projets →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section class="section section-alt" id="projets">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Projets personnels</p>
+        <h2>Quatre sites vitrines, quatre univers différents</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card" data-reveal>
+          <div class="project-thumb thumb-1" aria-hidden="true">
+            <span>GynePlus Dakar</span>
+          </div>
+          <div class="project-body">
+            <p class="project-tag">Cabinet médical</p>
+            <h3>GynePlus Dakar</h3>
+            <p>Site vitrine pour un cabinet de gynécologie-obstétrique : présentation
+              de l'équipe, des soins proposés et prise de rendez-vous.</p>
+            <a href="https://ndeyeannadiouf313bint-maker.github.io/gyn-plus/" target="_blank" rel="noopener" class="project-link">
+              Voir le site <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-thumb thumb-2" aria-hidden="true">
+            <span>Dr Hadi Hakim</span>
+          </div>
+          <div class="project-body">
+            <p class="project-tag">Cabinet médical</p>
+            <h3>Dr Hadi Hakim — Dermatologie</h3>
+            <p>Site pour un cabinet de dermatologie, laser et esthétique à Dakar,
+              mettant en avant les technologies et domaines d'expertise du praticien.</p>
+            <a href="https://ndeyeannadiouf313bint-maker.github.io/cabdrhadi/" target="_blank" rel="noopener" class="project-link">
+              Voir le site <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-thumb thumb-3" aria-hidden="true">
+            <span>Alama Lawyer</span>
+          </div>
+          <div class="project-body">
+            <p class="project-tag">Cabinet d'avocats</p>
+            <h3>SCP Alama Lawyer</h3>
+            <p>Site institutionnel pour un cabinet d'avocats d'affaires à Dakar :
+              domaines d'intervention, associés et prise de contact.</p>
+            <a href="https://ndeyeannadiouf313bint-maker.github.io/AlamaLawyer/" target="_blank" rel="noopener" class="project-link">
+              Voir le site <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-thumb thumb-4" aria-hidden="true">
+            <span>GENIUS Audit</span>
+          </div>
+          <div class="project-body">
+            <p class="project-tag">Cabinet d'expertise comptable</p>
+            <h3>GENIUS Audit & Conseil</h3>
+            <p>Site vitrine pour un cabinet d'expertise comptable, d'audit et de
+              conseil implanté à Dakar : missions, valeurs et bureaux.</p>
+            <a href="https://ndeyeannadiouf313bint-maker.github.io/geniusauditconseil/" target="_blank" rel="noopener" class="project-link">
+              Voir le site <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section class="section section-dark" id="competences">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Compétences</p>
+        <h2>Les outils que j'utilise pour construire un site vitrine</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card" data-reveal>
+          <h3>HTML &amp; CSS</h3>
+          <p>Structure sémantique, mise en page responsive, grilles et animations légères au scroll.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <h3>JavaScript</h3>
+          <p>Interactions : menus mobiles, formulaires, validations et effets d'apparition.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <h3>Design &amp; identité</h3>
+          <p>Choix de palette, typographie et structure adaptés à l'activité de chaque client.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <h3>Git &amp; déploiement</h3>
+          <p>Versionning avec Git/GitHub et mise en ligne via GitHub Pages.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-copy" data-reveal>
+        <p class="eyebrow">Contact</p>
+        <h2>Un projet de site vitrine ?</h2>
+        <p>
+          Que ce soit pour un cabinet, un commerce ou une activité indépendante,
+          je peux vous accompagner de la maquette jusqu'à la mise en ligne.
+          N'hésitez pas à me contacter pour en discuter.
+        </p>
+        <ul class="contact-list">
+          <li><span>E-mail</span><a href="mailto:ndeyeannadiouf313bint@gmail.com">ndeyeannadiouf313bint@gmail.com</a></li>
+          <li><span>Téléphone</span><a href="tel:+221777943549">+221 77 794 35 49</a></li>
+          <li><span>École</span>Licence 2 Génie Informatique — Unipro</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" data-reveal novalidate>
+        <div class="form-row">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Votre projet</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true">NAD</span>
+      <p>Ndeye Anna Diouf<br>Étudiante en Génie Informatique — Unipro</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Navigation de pied de page">
+      <a href="#apropos">À propos</a>
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Ndeye Anna Diouf — Portfolio personnel.</p>
+    <button id="backToTop" class="back-to-top" aria-label="Retour en haut de page">↑</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
